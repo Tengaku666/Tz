@@ -403,3 +403,83 @@ ul {
   margin: 5px 0 0;
   font-size: 14px;
 }
+
+@media screen and (max-width: 390px) {
+  body {
+      font-size: 12px;
+      padding: 5px;
+  }
+
+  .shape {
+      display: none;
+  }
+
+  .header__feedback {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__btn {
+      width: 100px;
+      height: 25px;
+      font-size: 8px;
+  }
+
+  .promo-button {
+      width: 300px;
+      height: 64px;
+      font-size: 20px;
+  }
+
+  .welcomewhite__text {
+      font-size: 20px;
+      line-height: 32px;
+  }
+
+  .welcomeblue__text {
+      font-size: 20px;
+      line-height: 32px;
+  }
+
+  .cost__btn {
+      width: 100%;
+      height: 60px;
+      font-size: 14px;
+  }
+
+  .header__number {
+      font-size: 18px;
+  }
+}
+
+.welcome__implantation {
+  width: 358px;
+  height: 153px;
+}
+
+.implantation__implant {
+  width: 45px;
+  height: 63px;
+  padding-top: 10px; 
+}
+
+.effect-behind {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+.doc1 {
+  display: none;
+}
+
+.welcome__implant__osstem__text {
+  margin-left: 45px;
+}
+
+.shape2 {
+  display: none;
+}
